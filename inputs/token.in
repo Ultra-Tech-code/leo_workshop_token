@@ -18,7 +18,17 @@ sender: token = token  {
   _nonce: 2713383315042779033157413900206295864182320392498211229917485822240462643661group
 };
 receiver: address = aleo19pu64fuk0pgmkxzl2s8mwz9dcex6g4tdh4pmehd9fh9wdz9xdcgshprdr4;
-amount: u64 = 100u64;
+amount: u64 = 50u64;
+
+
+[transfer_total_private]
+sender: token = token  {
+  owner: aleo14f6r8ee728arw8u2mgqfv37xk7lputxk5yman56krp2gn84a8urqfwnkkf,
+  amount: 100u64,
+  _nonce: 2713383315042779033157413900206295864182320392498211229917485822240462643661group
+};
+receiver: address = aleo19pu64fuk0pgmkxzl2s8mwz9dcex6g4tdh4pmehd9fh9wdz9xdcgshprdr4;
+
 
 [transfer_private_to_public]
 sender: token = token {

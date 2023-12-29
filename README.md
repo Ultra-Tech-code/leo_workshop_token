@@ -10,3 +10,8 @@ To run this program, run:
 ```bash
 ./run.sh
 ```
+
+added a function called
+```transfer_total_private
+```
+that transfer the total balance of the sender to the receiver
